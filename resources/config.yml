@@ -1,0 +1,3 @@
+# Write the commands who should be disabled here
+Disabled-Commands:
+  - me
