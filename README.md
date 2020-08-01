@@ -1,0 +1,2 @@
+# CommandDisabler
+Disable unwanted commands
