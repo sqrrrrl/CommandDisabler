@@ -16,10 +16,9 @@ class Main extends PluginBase{
             $cmd = $commandMap->getCommand($command);
             if ($cmd == null) {
                 $this->getLogger()->error("Command /" . $command . " not found");
-                return false;
+            }else{
+                $commandMap->unregister($cmd);
             }
-            $commandMap->unregister($cmd);
         }
-        return true;
     }
 }
