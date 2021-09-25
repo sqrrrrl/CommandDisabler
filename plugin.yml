@@ -1,7 +1,7 @@
 ---
 name: CommandDisabler
-version: 1.0.0
+version: 2.0.0
 main: superbobby2000\CommandDisabler\Main
-api: 3.14.0
+api: 4.0.0
 load: POSTWORLD
 ...
