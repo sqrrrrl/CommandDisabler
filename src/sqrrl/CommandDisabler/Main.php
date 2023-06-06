@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace superbobby2000\CommandDisabler;
+namespace sqrrl\CommandDisabler;
 
 use pocketmine\plugin\PluginBase;
 

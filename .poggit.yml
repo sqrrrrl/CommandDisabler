@@ -3,6 +3,7 @@ build-by-default: true
 branches:
 - master
 - "PM-4"
+- "PM5"
 projects:
   CommandDisabler:
     path: ""
