@@ -8,7 +8,7 @@ use pocketmine\plugin\PluginBase;
 
 class Main extends PluginBase{
 
-    public function onEnable() {
+    public function onEnable(): void {
         @mkdir($this->getDataFolder());
         $this->saveDefaultConfig();
         foreach ($this->getConfig()->get("Disabled-Commands") as $command) {
